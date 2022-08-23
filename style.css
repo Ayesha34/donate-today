@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section style start */
+.header-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/donation15.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+}
+
+
+.top-text h1 {
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+    font-size: 55px;
+}
+
+.top-text p {
+    color: rgb(248, 242, 242);
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.btn1 {
+    display: block;
+    margin: 50px auto;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(3, 146, 146);
+    padding: 15px;
+}
+
+/* header section style end */
+
+/* Donate today section style start */
+.middle-text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.middle-text h1 {
+    font-size: 47px;
+    margin-bottom: 15px;
+}
+
+.middle-text p {
+    font-size: 18px;
+    color: rgb(67, 68, 68);
+    margin-bottom: 35px;
+}
+
+.donate-money {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.donate-money .card1 {
+    background-color: rgb(161, 161, 161);
+    color: rgb(50, 51, 51);
+    font-size: 20px;
+    padding: 25px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.donate-money .card2 {
+    background-color: rgb(161, 161, 161);
+    color: rgb(50, 51, 51);
+    font-size: 20px;
+    padding: 25px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.donate-money .card3 {
+    background-color: rgb(161, 161, 161);
+    color: rgb(50, 51, 51);
+    font-size: 20px;
+    padding: 25px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.donate-money .card4 {
+    background-color: rgb(181, 243, 243);
+    color: rgb(1, 129, 129);
+    font-size: 20px;
+    padding: 25px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px rgb(1, 129, 129) solid;
+    margin-right: 20px;
+}
+
+.donate-money .card5 {
+    background-color: rgb(161, 161, 161);
+    color: rgb(50, 51, 51);
+    font-size: 20px;
+    padding: 25px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.input-amount {
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid rgb(187, 185, 185);
+    width: 650px;
+}
+
+.btn2 {
+    display: block;
+    margin: 25px auto;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(3, 146, 146);
+    padding: 15px;
+}
+
+/* Donate today section style end */
+
+/* Our donate plan section start */
+.donate-plan {
+    margin: 100px 0 100px 0;
+
+}
+
+.donate-plan h1 {
+    font-size: 47px;
+    text-align: center;
+
+}
+
+.donate-plan p {
+    font-size: 18px;
+    color: rgb(67, 68, 68);
+    margin: 15px 0 35px 0;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    margin: 0 130px;
+}
+
+
+.card p {
+    font-size: 18px;
+    text-align: left;
+    padding: 5px 10px 0 10px;
+
+}
+
+.food .shelter .education {
+    width: 25%;
+}
+
+.food img,
+.shelter img,
+.education img {
+    width: 70px;
+    padding: 15px 0 0 15px;
+
+}
+
+.food h3,
+.shelter h3,
+.education h3 {
+    padding: 10px 0 0 10px;
+    font-size: 25px;
+}
+
+.food {
+    background-color: rgb(247, 225, 247);
+    margin-right: 12.5px;
+    border-radius: 10px;
+}
+
+
+.shelter {
+    background-color: rgb(250, 240, 220);
+    margin-right: 12.5px;
+    border-radius: 10px;
+}
+
+.education {
+    background-color: rgb(189, 247, 241);
+    border-radius: 10px
+}
+
+/* Our donate plan section end */
+
+
+/* our updates section style start */
+.our-update h1 {
+    font-size: 47px;
+    text-align: center;
+
+}
+
+.our-update p {
+    font-size: 18px;
+    color: rgb(67, 68, 68);
+    margin: 15px 0 35px 0;
+    text-align: center;
+}
+
+.email-input {
+    text-align: center;
+    margin: 0 80px 80px 80px;
+    background-color: rgb(199, 250, 250);
+    padding: 50px;
+    position: relative;
+}
+
+.filled {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+
+.btn3 {
+    position: relative;
+    border-radius: 0 15px 15px 0;
+    left: -5px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: rgb(3, 146, 146);
+    cursor: pointer;
+
+
+}
+
+/* donation experience section start */
+.experience {
+    display: flex;
+    margin: 50px 50px 50px 50px;
+}
+
+
+h1 {
+    font-size: 47px;
+    text-align: center;
+
+}
+
+.donation-text {
+    padding: 200px 20px;
+}
+
+.donation-text h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.donation-text p {
+    font-size: 18px;
+    color: grey;
+}
+
+
+/* donation experience section end */
+
+/* our updates section style start */
+
+
+/* footer section style start*/
+.footer {
+    background-color: black;
+    width: 100%;
+}
+
+.footer h2 {
+    color: rgb(75, 157, 250);
+    font-family: 'Imperial Script', cursive;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+
+.footer p {
+    text-align: center;
+    padding-bottom: 40px;
+    color: rgb(253, 251, 251);
+}
+
+/* footer section style end*/
